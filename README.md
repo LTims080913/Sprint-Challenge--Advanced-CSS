@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A responsive website is fluid and it adapts to the size of the screen of the device no matter the target whereas an adaptive website uses static layouts based on breakpoints which don’t respond once they’re loaded.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A mobile first website is a designing approach that starts with designing for the main function of the site and then re-sizes for bigger devices. A desktop first website is a designing approach that starts with  high specifications achieved by design and then is scaled down to wrap the content so that it is not lost in a smaller device screen. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+When you set the font-size to 62.5% in the html tag it changes all font on the website to 10px. This is beneficial when using rem units because it is easier to multiply and calculate the outcome.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is like a .zip file or .rar file. You create your styling in the preprocessor using nesting in order to keep from re-writing the same code over and over again, this is less code that does the same thing. It keeps all of the styling packaged in a file that doesn’t appear to be very large. The preprocessor then re-writes the code in css and expands the code without being nested. This is like unzipping the .zip or .rar file. All of the content inside the file is exposed.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept of preprocessing is making mixins and variables. I like creating the mixins to achieve the optimal result without writing more code. The part that gave me trouble in the beginning was a mistake that I made while creating the media queries. The part that still occasionally trips me up is the syntax of LESS. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
