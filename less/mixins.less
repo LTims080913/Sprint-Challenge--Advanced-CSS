@@ -1,1 +1,21 @@
 // Mixins Here
+.flex(@justify:right, @direction){
+    display: flex;
+    justify-content: @justify;
+    flex-direction: @direction;
+}
+.spacing(@space, @align){
+    margin: @space;
+    align-content: @align;
+}
+.btn-style(@width, @center){
+    width: @width;
+    height: 16%;
+    background-color: @btn-bg-color;
+    border-radius: 13px;
+    padding-top: 5%;
+    margin: 0 0 10% 0;
+    text-align: @center;
+    font-size: 170%;
+    color: white;
+    }
