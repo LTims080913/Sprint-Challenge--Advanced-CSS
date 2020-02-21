@@ -84,7 +84,9 @@
             }
           &:hover {
             background-color: white;
-            color           : @btn-bg-color;
+            color: @btn-bg-color;
+            .keyframes(fade-in; {0%{opacity:0;} 100% {opacity:1;}});
+            .animation(fade-in 0.2s linear infinite alternate);
             
           }      
 
@@ -106,4 +108,8 @@
       }
     }
   }
+
+
+
+  
 }// home
